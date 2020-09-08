@@ -1,0 +1,45 @@
+.header {
+   padding: 15px 20px;
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   position: sticky;
+   background-color: lightcyan;
+   z-index: 100;
+   top: 0;
+   box-shadow: 0px, 5px, 8px, -9px rgba(0, 0, 0, 0.75);
+
+}
+
+.header__left {
+   display: flex;
+   align-items: center;
+   padding-left: 30px;
+}
+
+.header__left > img {
+   height: 90px;
+} 
+
+.header__right {
+   align-items: center;
+   padding-left: 20%;
+   display: flex;
+   flex: 1; 
+   justify-content: center;
+}
+
+.nav__items {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: larger;
+   display: inline;
+   list-style-type: none;
+   align-items: center;
+   padding: 0 30px;
+   cursor: pointer;
+   
+}
+
+.nav__items:hover {
+   color: dodgerblue;
+}
